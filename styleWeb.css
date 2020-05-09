@@ -1,0 +1,279 @@
+.content{
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#mytopImage {
+  /* padding-top: 10px; */
+  width: 92%;    /*razmer kartinki */
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin: 0 auto; */
+}
+
+.topRow{
+  display: flex;
+  box-sizing: border-box;
+  padding: 5px 45px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.topColumn {
+  padding: 0px;
+  /* flex: 33.33%; */
+
+}
+
+/* #myTops{
+  text-align: center; */
+  /* margin: 0 100px 0 100px;  */
+  /* Otstum na shirinu levoy i pravoy kolonki */
+  /* margin: 0 auto 0 200px;
+  box-sizing: border-box;
+} */
+
+
+.imageOyOy {
+  position: relative;
+  padding-top: 10px;
+  width: 100px;
+  /* width: 40%; */
+ /*razmer kartinki */
+  cursor: pointer;
+}
+.imageOyOy:hover {
+  cursor: pointer;
+  box-shadow: 0 0 12px #87CEEB;  /*granici knopki svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
+}
+
+.imageOyOy p{
+  color: #4682B4;
+  font-size: 18px;
+  /* margin: auto; */
+  font-weight: bold;
+}
+
+.topNavi{
+  background-color: #2E8B57;
+  height: 30px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.topNavi a{
+  color: white;
+  text-align: center;
+  padding: 5px 35px;
+  margin-bottom: 50px;
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+.topNavi a:hover{
+   /* border-bottom: 2px solid #2E8B57;  liniya pod border   */
+  text-shadow: 0 0 10px white;
+   /*tekst svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
+}
+
+h1 {
+  color: #191970;
+  font-size: 30px;   /*razmer teksta */
+  font-weight: bold;
+}
+
+body {
+  /* text-align: center;*/
+         /*centriruet vse elementi body */
+  /* padding: 20px;  */
+        /*otstup so storon */
+  /* font-family: 'Open sans', sans-serif; */
+   /*vid shrifta */
+  font-family: 'Arvo', serif;
+  /* background: #F0E68C; */
+  /* background: 	#9999FF; */
+  height: auto;
+}
+
+/* nav{
+  padding-bottom: 25px;
+  margin-right: 5em ;
+} */
+
+.bg {
+  position: absolute;
+  /* background: url(http://gdefon.org/_ph/1/565308361.jpg);
+  opacity: 0.2; */
+  background: url(Background1.png);
+  opacity: 0.2;
+  height: 1200px;
+  width: 100%;
+}
+
+.content .myHeadText2{
+  position: relative;
+  color: #B22222;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.5s;   /*dlitel'nost effektov */
+}
+.content .myHeadText2:hover {
+  color: #FF6347 ;
+}
+
+#myIndividualText{
+    color: #191970;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+button {
+  position: relative;      /*bez pozicii relativ animacia hover ne rabotalo, meshala class .bg */
+  font-size: 17px;         /*razmer knopki */
+  padding: 12px 15px;     /*otstup ot granic */
+  margin-top: 10px;       /*otstup s verxu */
+  /* border: 10px; */     /*sdelat' raymer granici  */
+  font-weight: bold;    /*sdelat' bukvy jyrnimi */
+  border-radius: 7px;  /*skruglenie uglov knopki */
+  transition: all 0.5s;  /* transition-duration: 0.4s; */   /*vremya animacii hover */
+  /* box-shadow: 0 0 7px #FF66FF;   granici knopki svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
+  cursor: pointer;
+}
+
+.myButtonSUBS{
+  color: white;         /*menyat' cvet bukw*/
+  background: red;    /*fon knopki #B22222 */
+}
+/* podsvechivaetsya kogda navodish na myshku*/
+.myButtonSUBS:hover {
+    background: white;    /*fon knopki */
+    color: #FF6347;         /*menyat' cvet bukw*/
+    box-shadow: 0 0 12px #FF66FF;  /*granici knopki svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
+}
+
+#container {
+   width: 100%;  /* Ширина макета */
+   margin: 0 auto;
+   /* Выравниваем по центру */
+   /* background: #FFFAF0; */
+    /* Цвет колонок */
+   height: 1200px;
+}
+
+.myHeader{
+  font-size: 1.7em; /* razmer tkesta */
+  text-align: center; /* vyravnenie po centru */
+  padding: 5px; /* otstupi vokrug teksta */
+  color: black;
+  background: #B0C4DE;
+  padding-top: 5px;
+  margin: 0 10px 0 10px; /* Otstum na shirinu levoy i pravoy kolonki */
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#header1{
+  font-size: 28px;
+}
+
+h2{
+  margin: 1em 0 1em;
+  text-align: center;
+  font-size: 22px;
+}
+
+#myReklams {
+    float: left;
+    width: 300px;
+    padding: 5px;
+}
+
+#aside {
+    float: right;
+     width: 200px;
+     padding: 5px;
+     color: #000;
+}
+
+#myAsideText{
+  font-size: 22px;
+}
+#myAsideText p{
+  font-size: 17px;
+}
+
+#myTextContent{
+  background: #FFE4B5;
+  /* margin: 0 120px;   */
+  /* shirina kolonok */
+  padding: 10px;
+  margin: 0 250px 0 250px; /* Otstum na shirinu levoy i pravoy kolonki */
+  height: 970px auto;
+}
+#myTextContent ul{
+    font-size: 17px;   /*razmer teksta */
+}
+
+
+.myButtonShop{
+  /* float:inherit; */
+  color: white;         /*menyat' cvet bukw*/
+  background: #2E8B57;    /*fon knopki #B22222 */
+
+}
+
+.myButtonShop:hover{
+  color: #2E8B57;         /*menyat' cvet bukw*/
+  background: white;    /*fon knopki #B22222 */
+  box-shadow: 0 0 9px 		#66FF99	;  /*granici knopki svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
+}
+
+.tabHead{
+  /* float:none;
+  vertical-align:top; */
+  text-align: center;
+}
+
+.reklams img{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  transition: all 1s;
+}
+
+.reklams img:hover{
+  transform: scale(1.2);  /*chtobi dobavit' effekt zoom, stavim scale i transition sekundi kodom vishe */
+}
+
+#footer {
+  clear: both;  /* otmenyaem deistvie float */
+  padding: 5px; /* otstupi vokrug teksta */
+  background: #B0C4DE; /* cvet fona podvala */
+  font-size: 15px;   /*razmer teksta */
+}
+
+
+#myAboutContent{
+  background: #FFE4B5;
+  /* margin: 0 120px;   */
+  /* shirina kolonok */
+  padding: 10px;
+  margin: 0 250px 0 250px; /* Otstum na shirinu levoy i pravoy kolonki */
+  height: 970px auto;
+}
+#myAboutContent ul{
+    font-size: 20px;   /*razmer teksta */
+}
+
+
+.rotated10 {
+  transform: rotateZ(10deg);
+}
+.rotated180 {
+  transform: rotateZ(180deg);
+}
+.rotated90 {
+  transform: rotateZ(90deg);
+}
