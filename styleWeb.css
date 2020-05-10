@@ -107,7 +107,7 @@ body {
   /* background: url(http://gdefon.org/_ph/1/565308361.jpg);
   opacity: 0.2; */
   background: url(Background1.png);
-  opacity: 0.2;
+  opacity: 0.1;
   height: 1200px;
   width: 100%;
 }
@@ -126,7 +126,7 @@ body {
 #myIndividualText{
     color: #191970;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 button {
@@ -169,14 +169,20 @@ button {
   color: black;
   background: #B0C4DE;
   padding-top: 5px;
-  margin: 0 10px 0 10px; /* Otstum na shirinu levoy i pravoy kolonki */
+  margin: 5px 10px 0 10px; /* Otstum na shirinu levoy i pravoy kolonki */
   font-weight: bold;
   font-size: 25px;
 }
 
 #header1{
   font-size: 28px;
+  margin-top: 30px;
 }
+
+#header0{
+  background: #DB7093;
+}
+
 
 h2{
   margin: 1em 0 1em;
@@ -213,7 +219,7 @@ h2{
   height: 970px auto;
 }
 #myTextContent ul{
-    font-size: 17px;   /*razmer teksta */
+    font-size: 20px;   /*razmer teksta */
 }
 
 
@@ -254,8 +260,8 @@ h2{
   font-size: 15px;   /*razmer teksta */
 }
 
-
-#myAboutContent{
+.allContents{
+  position: relative;
   background: #FFE4B5;
   /* margin: 0 120px;   */
   /* shirina kolonok */
@@ -263,10 +269,10 @@ h2{
   margin: 0 250px 0 250px; /* Otstum na shirinu levoy i pravoy kolonki */
   height: 970px auto;
 }
-#myAboutContent ul{
+
+.allContents ul{
     font-size: 20px;   /*razmer teksta */
 }
-
 
 .rotated10 {
   transform: rotateZ(10deg);
@@ -276,4 +282,25 @@ h2{
 }
 .rotated90 {
   transform: rotateZ(90deg);
+}
+
+.daVinci{
+  position:sticky;
+  width: 55%;    /*razmer kartinki */
+  text-align: center;
+  /* background: none; */
+  transition: all 1.7s;  /* transition-duration: 0.4s; */   /*vremya animacii hover */
+}
+
+.daVinci:hover{
+  transform: scale(2.7);  /*chtobi dobavit' effekt zoom, stavim scale i transition sekundi kodom vishe */
+}
+
+#myFrameYoutube{
+  position: relative;
+   /* ohne das funktioniert nicht, deswegen nicht vergessen!   */
+  /* margin:  5px 90px 0 90px; */
+  /* width:560px; height:315px; */
+  padding-left: 20px;
+     /* Otstum na shirinu levoy i pravoy kolonki */
 }
