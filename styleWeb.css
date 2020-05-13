@@ -7,13 +7,13 @@
 #mytopImage {
   /* padding-top: 10px; */
   width: 92%;    /*razmer kartinki */
-  text-align: center;
+  /* text-align: center; */
   /* margin-left: auto; */
   /* margin: 0 auto; */
 }
 
 .topRow{
-  display: flex;
+  display:flex;
   box-sizing: border-box;
   padding: 5px 45px;
   margin-top: 15px;
@@ -57,7 +57,8 @@
 }
 
 .topNavi{
-  background-color: #2E8B57;
+  /* background-color: #2E8B57; */
+  background-color: #008B8B;
   height: 30px;
   font-size: 20px;
   margin-top: 15px;
@@ -226,12 +227,12 @@ h2{
 .myButtonShop{
   /* float:inherit; */
   color: white;         /*menyat' cvet bukw*/
-  background: #2E8B57;    /*fon knopki #B22222 */
+  background: #008B8B;    /*fon knopki #B22222 */
 
 }
 
 .myButtonShop:hover{
-  color: #2E8B57;         /*menyat' cvet bukw*/
+  color: #008B8B;         /*menyat' cvet bukw*/
   background: white;    /*fon knopki #B22222 */
   box-shadow: 0 0 9px 		#66FF99	;  /*granici knopki svetyatsya dannim cvetom, mojno izmwnit' pixel shirinu podsvetki*/
 }
@@ -303,4 +304,9 @@ h2{
   /* width:560px; height:315px; */
   padding-left: 20px;
      /* Otstum na shirinu levoy i pravoy kolonki */
+}
+
+#myContactContent{
+  position: relative;
+  font-size: 20px;   /*razmer teksta */
 }
